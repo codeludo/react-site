@@ -1,1 +1,23 @@
+@import url(_vars.css);
 
+.main {
+    color: var(--light);
+    background-color: var(--dark-light);
+    padding: 57px 27px;
+}
+.main-title {
+    margin: 0;
+    font-size: 39px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+.main-facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main-facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
