@@ -2,6 +2,9 @@
 
 .main {
     color: var(--light);
+    background-image: url(../assets/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
     background-color: var(--dark-light);
     padding: 57px 27px;
 }
