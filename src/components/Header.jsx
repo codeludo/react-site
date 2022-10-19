@@ -1,4 +1,5 @@
 import "../styles/header.css"
+import iconInfo from "../assets/info-svgrepo-com.svg"
 import reactLogo from "../assets/react.svg"
 
 export default function Header() {
@@ -11,6 +12,7 @@ export default function Header() {
 				</div>
                 <div className="nav-right">
                     <h3>React Course - Project 1</h3>
+					<img src={iconInfo} alt="info icon" />
                 </div>
 			</nav>
 		</>

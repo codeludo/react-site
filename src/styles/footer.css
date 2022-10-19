@@ -1,0 +1,23 @@
+@import url(_vars.css);
+
+.footer {
+    padding: 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: var(--dark);
+    color: var(--light);
+    height: 46px;
+}
+
+.footer-title {
+    margin-left: 4px;
+    padding: 6px;
+    font-size: 12px;
+}
+
+.footer img {
+    height: 18px;
+    width: 18px;
+    margin-right: 26px;
+}

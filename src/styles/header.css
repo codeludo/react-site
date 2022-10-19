@@ -1,34 +1,59 @@
 @import url(_vars.css);
 
 nav {
-    height: 91px;
-    background-color: var(--dark);
-    display: flex;
-    justify-content: space-between;
+	height: 91px;
+	background-color: var(--dark);
+	display: flex;
+	justify-content: space-between;
 }
 
 .nav-left {
-    display: flex;
-    align-items: center;
-    place-items: center;
-    font-size: 22px;
-    font-style: normal;
-    color: var(--blue);
-    font-weight: 700;
+	display: flex;
+	align-items: center;
+	place-items: center;
+	justify-content: center;
+	font-size: 22px;
+}
+
+.nav-left h1 {
+	color: var(--blue);
+	letter-spacing: -0.05em;
 }
 
 .nav-left img {
-    margin-left: 26px;
-    margin-right: 6px;
+	margin-left: 26px;
+	margin-right: 6px;
 }
 
 .nav-right {
-    margin-right: 27px;
-    display: flex;
-    justify-content: center;
-    place-items: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    color: var(--light);
+	margin-right: 27px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	place-items: center;
+}
+
+.nav-right h3 {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	color: var(--light);
+	padding: 0;
+	margin: 0;
+}
+
+.nav-right > img {
+	display: none;
+	height: 21px;
+}
+
+@media (max-width: 570px) {
+	.nav-right > img {
+		display: block;
+	}
+
+	.nav-right h3 {
+		display: none;
+	}
+	
 }
