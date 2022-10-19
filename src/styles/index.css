@@ -1,0 +1,28 @@
+@font-face {
+	font-family: Inter;
+	src: url(public/static/Inter-Regular.ttf) format(ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Inter;
+	src: url(public/static/Inter-SemiBold.ttf) format(ttf);
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: Inter;
+	src: url(public/static/Inter-Bold.ttf) format(ttf);
+	font-weight: 700;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 10px;
+	font-family: sans-serif, Inter;
+}
